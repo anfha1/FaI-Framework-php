@@ -1,0 +1,29 @@
+{
+	"f@comment": "chương trình hỗ trợ cho câu lệnh comment",
+
+	"f@comment": "f@default dùng để cài đặt mặc định mặc định",
+	"f@default": {
+
+		"f@comment": "controler trong f@default để đặt mặc định controller là home nếu người dùng quên không nhập controller",
+		"controller": "home"
+	},
+
+	"f@comment": "cách gọi tạo 1 router tên router và cấu hình cho router",
+	"login": {
+		"f@comment": "f@controller dùng để cấu hình controller cho router",
+		"f@controller": "login"
+	},
+
+	"f@comment": "khai báo 1 group nhiều gồm router thuộc 1 node",
+	"manage": {
+		"f@controller": "manage",
+
+		"f@comment": "user thuộc manage đường dẫn url ở đây là /manage/user",
+		"user": {
+
+			"f@comment": "Nếu có > ở đầu của controller thì chương trình sẽ hiểu là tìm login thuộc thư mục manage controller của router cha của nó",
+			"f@controller": ">login"
+		}
+	}
+
+}

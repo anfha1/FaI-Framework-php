@@ -1,0 +1,64 @@
+{
+	"f@config": {
+		"version": 1,
+		"useModel": 0,
+		"userView": 1,
+		"default": {
+			"controler": "home",
+			"view": ["head", "header", "contenter", "footer"]
+		}
+	},
+	"/": {
+		"f@setup": {
+			"controler": "home@index",
+			"view": {
+				"head": "head",
+				"body": ["head", "home@index", "footer"]
+			}
+		}
+	},
+	"group": {
+		"{idGroup@regexp:[a-zA-Z0-9]}": {
+			"/": {
+				"f@setup": {
+					"controler": "group@index",
+					"view": {
+						"head": "head",
+						"body": {
+							"header": "header",
+							"contenter": "group@index",
+							"footer": "footer"
+						}
+					}
+				}
+			},
+			"{idUser@string}": {
+				"f@setup": {
+					"controler": "group@index",
+					"view": {
+						"head": "head",
+						"body": {
+							"header": "header",
+							"contenter": "group@index",
+							"footer": "footer"
+						}
+					}
+				}
+			},
+			"test": {
+				"ahihi": ""
+			},
+			"f@setup": {
+				"controler": "group@index",
+				"view": {
+					"head": "head",
+					"body": {
+						"header": "header",
+						"contenter": "group@index",
+						"footer": "footer"
+					}
+				}
+			}
+		}
+	}
+}

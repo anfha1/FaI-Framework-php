@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trường_học>
+	<tên>X</tên>
+	<địa_chỉ>123 ABC</địa_chỉ>
+	<loại_phòng>
+		<tầng_1 đơn_giá="280000">
+			<p101>
+				<số_lượng>53</số_lượng>
+			</p101>
+			<p102>
+				<số_lượng>52</số_lượng>
+			</p102>
+			<p103>
+				<số_lượng>30</số_lượng>
+			</p103>
+		</tầng_1>
+		<tầng_2 đơn_giá="260000">
+			<p201>
+				<số_lượng>53</số_lượng>
+			</p201>
+			<p202>
+				<số_lượng>52</số_lượng>
+			</p202>
+			<p203>
+				<số_lượng>30</số_lượng>
+			</p203>
+		</tầng_2>
+		<tầng_3>
+			<p301>
+				<số_lượng>12</số_lượng>
+			</p301>
+		</tầng_3>
+	</loại_phòng>
+</trường_học>

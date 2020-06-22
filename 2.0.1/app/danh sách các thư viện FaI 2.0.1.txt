@@ -1,0 +1,3 @@
+kiểm tra sự tồn tại của file isFile("đường_dẫn_đến_file");
+
+kiểm tra json isJson($json);
